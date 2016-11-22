@@ -1,4 +1,4 @@
-// Put Loading indicator in the right bottom of the screen 
+// Put Loading indicator in the right bottom of the screen
 .o_loading {
     background-color: darken(@brand-primary, 13.5%) !important;
     top: inherit;
@@ -35,11 +35,19 @@ body a {
 }
 
 .ui-autocomplete .ui-menu-item.ui-state-focus  {
-    background-color: @brand-primary;	
+    background-color: @brand-primary;
 }
 
 .o_control_panel .breadcrumb > li > a {
     color: @brand-primary;
+}
+
+.o_control_panel .o_cp_sidebar .o_hidden_input_file .o_form_binary_form span {
+    color: inherit;
+}
+.o_control_panel .o_cp_sidebar .o_hidden_input_file .o_form_binary_form:hover {
+    color: #fff;
+    background-color: @brand-primary;
 }
 
 .o_form_view .o_horizontal_separator {
@@ -280,12 +288,12 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
         width: 100% !important;
 	}
 
-	// Fix user preference height	
+	// Fix user preference height
 	.modal .modal-content .modal-body .oe-view-manager-content {
 		position: static;
 		height: 400px;
 	}
-	
+
 	// Fix salesboard width
 	.oe-view-manager-view-sales_team_dashboard {
 		width: 100%;
