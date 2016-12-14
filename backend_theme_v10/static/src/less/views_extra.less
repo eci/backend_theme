@@ -6,3 +6,22 @@
         }
     }
 }
+
+// Badges
+.badge {
+    border: 1px solid @brand-primary;
+    font-weight: normal;
+    line-height: @line-height-base;
+}
+.oe_kanban_details .badge {
+    color: @brand-primary;
+    background-color: transparent;
+}
+
+// Forms
+.o_form_view .o_form_required.o_form_input,
+ .o_form_view .o_form_required .o_form_input,
+  .o_form_view .o_form_required.o_form_textarea,
+   .o_form_view .o_form_required .o_form_textarea {
+    background-color: tint(@brand-primary, 80%); //#d6e4f0;
+}
